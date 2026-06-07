@@ -4,7 +4,7 @@
 # print(a+b) # python converts ans in float by default
 # output = 8.0
 
-#type casting - done by the programmer
+#type casting - done by the programmerr
 a = 10
 x = float(a) #10.0
 print(x)
