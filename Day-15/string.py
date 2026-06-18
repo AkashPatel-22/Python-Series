@@ -1,4 +1,4 @@
-# string..
+# String..
 # -string is a sequence of character enclosed in quotes- "str1", 'str2'
 # -immutable,once created content cannot be changed directly
 
