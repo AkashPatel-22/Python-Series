@@ -1,4 +1,5 @@
-#  Linear Search - checks elements one by one to find target (x).
+# Linear Search(using loop)
+# --checks elements one by one to find target (x).
  
 number = [10, 20, 30, 40, 18, 50]
 x = 18
