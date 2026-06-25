@@ -1,9 +1,5 @@
-# 
-
-
 
 # Loops on Dictionary.
-
 
 my_dict = {
     "name" : "shradha",
