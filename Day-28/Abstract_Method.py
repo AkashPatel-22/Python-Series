@@ -3,7 +3,7 @@
 # @abstractmethod
 # def method_name(self):
 
-# exmaple.
+# exmaple of Abstraction
 
 from abc import ABC, abstractmethod
 
