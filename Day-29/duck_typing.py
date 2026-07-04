@@ -22,3 +22,4 @@ r = robot()
 
 for e in [d,c,r]:
     make_it_speak(e)
+    
