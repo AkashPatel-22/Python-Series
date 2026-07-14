@@ -27,3 +27,13 @@ arr3 = np.array(["hello","world","of","prime"])
 print(arr.dtype) # int64
 print(arr2.dtype) # float64
 print(arr3.dtype) #U
+
+
+# Complex Numbers.
+
+arr1 = np.array([2+3j])
+arr2 = np.array([5+7j])
+
+print(arr1,arr1.dtype)
+print(arr1 + arr2)
+print(arr1 - arr2)
