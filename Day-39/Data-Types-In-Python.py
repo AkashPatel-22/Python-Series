@@ -16,3 +16,14 @@
 # 5. String : s(byte-str)& u (unicode-str)
 
 # 6. Object : generic python objects - object
+
+
+# Common Data Types.
+import numpy as np
+
+arr = np.array([1,2,3,4,5])
+arr2 = np.array([1.0,2.0,3.0])
+arr3 = np.array(["hello","world","of","prime"])
+print(arr.dtype) # int64
+print(arr2.dtype) # float64
+print(arr3.dtype) #U
