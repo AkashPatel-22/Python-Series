@@ -34,3 +34,19 @@ print(arr1 - arr2)
 # Objects.
 arr = np.array(["hello",{1,2,3},3.14])
 print(arr,arr.dtype)
+
+
+# we can also change the data type, either by explicitly typecasting at array creation using 'dtype' attribute 
+#  or by using the 'astype' method while creating a new array from existing one.
+
+
+# changing the data types
+# import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+new_arr = arr.astype(np.float64)
+print(new_arr, new_arr.dtype)
+
+new_arr = np.array([1, 2, 3, 4, 5], dtype=np.float64)
+print(new_arr, new_arr.dtype)
