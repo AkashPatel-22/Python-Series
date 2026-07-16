@@ -19,3 +19,6 @@ array = np.array([1, 2, 3, 4, 5])
 print("Sum:", np.sum(array))
 print("Mean:", np.mean(array))
 print("Standard Deviation:", np.std(array))
+
+print("Variance:", np.var(array))
+print("Minimum:", np.min(array))
