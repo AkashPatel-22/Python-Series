@@ -22,3 +22,7 @@ print("Standard Deviation:", np.std(array))
 
 print("Variance:", np.var(array))
 print("Minimum:", np.min(array))
+
+print("Maximum:", np.max(array))
+print("Median:", np.median(array))
+print("Product:", np.prod(array))
