@@ -12,4 +12,10 @@
 # - max() : returns the maximum value of array elements over a given axis.
 # - median() : returns the median of array elements over a given axis.
 # - prod() : returns the product of array elements over a given axis.
-# - 
+
+import numpy as np
+array = np.array([1, 2, 3, 4, 5])
+
+print("Sum:", np.sum(array))
+print("Mean:", np.mean(array))
+print("Standard Deviation:", np.std(array))
