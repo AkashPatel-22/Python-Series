@@ -8,6 +8,8 @@
 
 import numpy as np
 array = np.array([1, 2, 3, 4, 5])
+
 print("Square:", np.square(array))
 print("Square Root:", np.sqrt(array))
-print("Cube Root:", np.cbrt(array))
+print("Power of 2:", np.power(array, 2))
+# print("Cube Root:", np.cbrt(array))
