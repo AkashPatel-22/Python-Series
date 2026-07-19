@@ -27,6 +27,6 @@ s = pd.Series([1,2,3,4,5])
 s[0] = 100
 
 print(s)
-changed_s = s.drop(1)
+changed_s = s.drop(1) # creates a new series without the element at index 1
 print(changed_s)
-print(s)
+print(s)  # original series remains unchanged
