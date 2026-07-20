@@ -11,8 +11,9 @@
 
 # usage.
 
-import pandas as pd
 # creating DataFrame in pandas -  using dictionary.
+
+import pandas as pd
 info = {
     "Name" : ["Adam","Eve","Bob"],
     "Marks" : [78,99,85],
@@ -25,3 +26,5 @@ print(type(df))
 
 print(df.index)   # row lables
 print(df.columns)   # columns lables
+
+
