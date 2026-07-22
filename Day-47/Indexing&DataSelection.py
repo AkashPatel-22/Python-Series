@@ -38,3 +38,12 @@ df.iloc[0:2]  # returns the first two rows as a DataFrame
 df.iloc[0, 2]  # returns the value in the first row and third column
 
 # NOTE : IN .iloc[] When we slice, the end index is exclusive, meaning it does not include the row at the end index.
+
+
+# Selecting single cell value:
+# - we can select a single cell value using .at[] or .iat[].    
+
+# selecting a single cell value using .at[] or .iat[]:
+
+df.at[0, "city"]  # returns the value in the first row and 'City' column
+df.iat[0, 2]  # returns the value in the first row and third column
