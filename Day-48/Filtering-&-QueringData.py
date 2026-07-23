@@ -26,3 +26,13 @@ df.query('A > 2 or B < 7')  # using query() method with OR condition
 
 # NOTE: The query() method is useful when we have complex filtering conditions and want to write them in a more readable way.
 # NOTE: Qeuery returns a copy , not a view .
+
+
+
+#  Query String Rules:
+
+# -we write the conditions in a string.
+# -we can use operators like and, or, not, >, <, ==, !=, >=, <= in the query string.
+# -use backticks (`) to refer to column names that contain spaces or special characters.
+# -use @ to refer to variables defined outside the query string.
+
