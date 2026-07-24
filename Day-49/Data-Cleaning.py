@@ -23,3 +23,13 @@
 # df.to_numeric()  # Convert column to numeric type
 # df.to_datetime()  # Convert column to datetime type
 # df.to_string()  # Convert DataFrame to string type
+
+# String Cleaning
+# df.str.strip()  # Remove leading and trailing spaces
+# df.str.lower()  # Convert string to lowercase
+# df.str.upper()  # Convert string to uppercase
+# df.str.replace('old', 'new')  # Replace substring in string
+# df.str.contains('substring')  # Check if substring is present in string
+# df.str.startswith('substring')  # Check if string starts with substring
+# df.str.endswith('substring')  # Check if string ends with substring
+# df.str.len()  # Get length of string
