@@ -17,3 +17,9 @@
 # Handle duplicates
 # df.duplicated() - shows True for duplicate rows
 # df.drop_duplicates(inplace=True)  # Drop duplicate rows
+
+# Changing data types
+# df.astype()  # Change data type of a column
+# df.to_numeric()  # Convert column to numeric type
+# df.to_datetime()  # Convert column to datetime type
+# df.to_string()  # Convert DataFrame to string type
