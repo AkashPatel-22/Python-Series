@@ -13,3 +13,7 @@
 # df.fillna(method='bfill', inplace=True)  # Backward fill missing values
 # df.fillna(df.mean(), inplace=True)  # Fill missing values with mean of the column
 # df.isnull().sum()  # Count of missing values in each column 
+
+# Handle duplicates
+# df.duplicated() - shows True for duplicate rows
+# df.drop_duplicates(inplace=True)  # Drop duplicate rows
