@@ -18,3 +18,6 @@ print("Renamed DataFrame:")
 # Reordering columns
 df = df[['column3', 'column1', 'column2']]
 print("Reordered DataFrame:",df)
+
+# reset_index() - Reset index of a DataFrame
+df.reset_index(drop=True, inplace=True)  # Reset index of a DataFrame and
