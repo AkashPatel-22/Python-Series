@@ -14,3 +14,12 @@ print("Grouped DataFrame:",grouped)
 
 df_aggregated = grouped.aggregate({'value': 'sum'})
 print("Aggregated DataFrame (sum of values by category):",df_aggregated)
+
+# Aggregate multiple functions
+# df.sum(),
+# df.mean(),
+# df.max()
+# can be used to aggregate multiple functions on the grouped data
+
+df_aggregated_multiple = grouped.aggregate({'value': ['sum', 'mean', 'max']})
+print("Aggregated DataFrame (sum, mean, max of values by category):",df_aggregated_multiple)
