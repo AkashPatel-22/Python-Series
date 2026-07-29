@@ -15,3 +15,7 @@ df = pd.DataFrame({
 
 melted_df = pd.melt(df, id_vars=['A', 'B'], value_vars=['C', 'D'])  
 print(melted_df)
+
+print("\n")
+pivoted_df = melted_df.pivot(index=['A', 'B'], columns='variable', values='value')
+print(pivoted_df)   
