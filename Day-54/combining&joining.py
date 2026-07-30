@@ -16,3 +16,22 @@
 # Outer Join: Returns all rows from both DataFrames, with NaN in places where there are no matches.
 # Left Join: Returns all rows from the left DataFrame and the matched rows from the right DataFrame. If there is no match, NaN is returned for the right DataFrame.
 # Right Join: Returns all rows from the right DataFrame and the matched rows from the left DataFrame. If there is no match, NaN is returned for the left DataFrame. 
+
+
+#  Merging & Joining.
+
+import pandas as pd
+df1 = pd.DataFrame({
+     'key': ['A', 'B', 'C', 'D'],   
+     'value1': [1, 2, 3, 4]
+ }) 
+
+df2 = pd.DataFrame({
+     'key': ['B', 'D', 'E', 'F'],
+     'value2': [5, 6, 7, 8]
+ }) 
+
+pd.merge(df1, df2, on='key', how='inner')  # Inner Join 
+pd.merge(df1, df2, on='key', how='outer')  # Outer Join
+pd.merge(df1, df2, on='key', how='left')   # Left Join
+pd.merge(df1, df2, on='key', how='right')  # Right Join 
