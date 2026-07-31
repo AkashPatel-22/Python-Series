@@ -39,3 +39,7 @@ pd.merge(df1, df2, on='key', how='right')  # Right Join
 # df.concat()
 # -is used to concatenate two or more DataFrames along a particular axis (row-wise or column-wise).
 # It can be used to combine DataFrames with the same columns or different columns.  
+
+pd.concat([df1, df2], axis=0)  # Concatenate along rows
+pd.concat([df1, df2], axis=1)  # Concatenate along columns
+pd.concat([df1, df2], axis=0, ignore_index=True)  # Concatenate along rows and reset index  
