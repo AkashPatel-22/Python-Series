@@ -35,3 +35,7 @@ pd.merge(df1, df2, on='key', how='inner')  # Inner Join
 pd.merge(df1, df2, on='key', how='outer')  # Outer Join
 pd.merge(df1, df2, on='key', how='left')   # Left Join
 pd.merge(df1, df2, on='key', how='right')  # Right Join 
+
+# df.concat()
+# -is used to concatenate two or more DataFrames along a particular axis (row-wise or column-wise).
+# It can be used to combine DataFrames with the same columns or different columns.  
