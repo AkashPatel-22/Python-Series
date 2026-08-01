@@ -13,9 +13,15 @@ df = pd.DataFrame({
     'D': [7, 8, 9, 10, 11, 12]
 })
 
+# melt.
 melted_df = pd.melt(df, id_vars=['A', 'B'], value_vars=['C', 'D'])  
 print(melted_df)
-
 print("\n")
+
+# pivot.
 pivoted_df = melted_df.pivot(index=['A', 'B'], columns='variable', values='value')
 print(pivoted_df)   
+
+# reshape.
+reshaped_df = df.values.reshape(3, 4)
+print(reshaped_df)  
