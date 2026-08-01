@@ -1,6 +1,5 @@
 # Combining and Joining DataFrames in Pandas
 
-# In this tutorial, we will explore how to combine and join DataFrames in Pandas.
 # We will cover various methods such as concatenation, merging, and joining.
 
 # df.merge() 
@@ -12,6 +11,7 @@
 
 
 # it supports Multiple joins -
+
 # Inner Join: Returns only the rows that have matching values in both DataFrames.
 # Outer Join: Returns all rows from both DataFrames, with NaN in places where there are no matches.
 # Left Join: Returns all rows from the left DataFrame and the matched rows from the right DataFrame. If there is no match, NaN is returned for the right DataFrame.
