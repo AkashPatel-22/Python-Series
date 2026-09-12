@@ -1,4 +1,4 @@
- #### List Methods.
+ # List Methods.
 
 # len() - length of the string.
 # append(elements)- adds an elements to the end.
