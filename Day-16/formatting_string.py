@@ -2,7 +2,7 @@
 # - process of creating dynamic string by inserting values from
 # varibles or expressions into a predefined string template.
 # two ways to format a string:-
-# 1 - using format().JHHVJHBKJBKJBJKNJKN
+# 1 - using format().
 # 2 - using f-strings.
 
 
