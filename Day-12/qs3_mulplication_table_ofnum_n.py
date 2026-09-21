@@ -1,4 +1,4 @@
-# multiplication table for any number n (using while loop)
+## multiplication table for any number n (using while loop)
 
 n = int(input("enter number:"))
 i = 1
