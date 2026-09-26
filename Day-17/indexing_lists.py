@@ -1,4 +1,4 @@
-########################3# List indexing..
+# List indexing..
 # -index in a list is the position value of an item, index starts from 0.
 
 # Access Elements.
