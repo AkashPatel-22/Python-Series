@@ -1,4 +1,4 @@
-# Slicing
+##################3# Slicing
 #  -- slicing in lists is same as slicing in strings.
 
 # the general syntax for slicing list is:
