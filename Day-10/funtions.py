@@ -22,7 +22,7 @@ def avg(a,b,c):
 print(avg(1,2,3)) # direct fnx call kr skte hai print() ka use krk
 
 # default parameters:
-# -value provide nhi karenge to deafult parameter value le lega
+# -value provide nhi karenge to deafult parameter value le lega hmh hmh h
 
 # sum fnx with default paramter 1
 

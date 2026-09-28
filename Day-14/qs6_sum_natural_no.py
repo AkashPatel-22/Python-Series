@@ -1,5 +1,3 @@
-#
-#
 # sum of first n natural numbers:(using for loop)
 
 n = int(input("Enter Number: "))
