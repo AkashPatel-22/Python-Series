@@ -37,11 +37,11 @@ import numpy as np
 arr_mul10 = arr * 10  # multiply by 10 to all numbers
 print(arr_mul10)
 
-#  Broadcasting with a vector
+# Broadcasting with a vector
 arr1d = np.array([1,2,3])
 arr2d = np.array([[1,2,3],[4,5,6]])
 print(arr1d+arr2d)
 
 
-#  A quite common example of broadcasting in vector normalization.
+# A quite common example of broadcasting in vector normalization.
 # this is very common in machine learning and data preprocessing.
